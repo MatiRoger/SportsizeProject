@@ -1,3 +1,6 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
 /* ----------Navbar --------------- */
 .navbar {
     background-color: black ;
@@ -25,14 +28,55 @@ color: #00FF00
     }
     
 }
+/* Navbar Seccion Mujer */
 
+.navMujer a{
+    color: #FF007F;
+}
+.modal-content-mujer{
+    background-color:#333333;
+    color:#FF007F;
+}
+
+.buscarMujer{
+    color: #FF007F;
+    border-color: #FF007F;
+}
+
+.buscarMujer:hover{
+    
+    background-color: #FF007F;
+    border-color: #FF007F;
+}
+/* Navbar Seccion Niños */
+
+.navNinios a{
+    color: #FFA500;
+}
+
+.modal-content-ninios{
+    background-color:#333333;
+    color:#FFA500;
+}
+
+.buscarNinios{
+    color: #FFA500;
+    border-color: #FFA500;
+}
+
+.buscarNinios:hover{
+    
+    background-color: #FFA500;
+    border-color: #FFA500;
+
+    }
 
 /* ----------Separador de secciones--------------- */
+.fonts3{
+    font-family: 'Syne Mono', monospace;
+}
 
 
-.fonts {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   }
 
 
 
@@ -102,13 +146,51 @@ footer p, h3 {
     height: 70px;
     width: 70px;
 }
+.textFooter{
+    font-size: 16px;
+}
 /* --------------------------------------------- */
+/* Footer Seccion Mujer */
+
+.footerMujer a{
+    text-decoration: none;
+    color:#FF007F;
+}
+
+/* Footer Seccion Niños */
+
+.footerNinios a{
+    text-decoration: none;
+    color:#FFA500;
+}
 
 /*Estilos carrousel de videos*/
 
 .contenedor-carrusel{
     height: 600px; background-color: whitesmoke;
 }
+/* Tarjetas Dama*/
+
+.boton-color-damas {
+    background-color:#FF007F;
+    }
+    
+.boton-color-damas:hover {
+    background-color:#FF007F;
+        }
+        
+
+/* Tarjetas Niños */
+
+.boton-color-ninios {
+    background-color: #FFA500;
+    }
+    
+.boton-color-ninios:hover {
+    background-color: #FFA500;
+        }
+
+
 
 
 
