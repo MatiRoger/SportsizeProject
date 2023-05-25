@@ -208,6 +208,17 @@ footer p, h4 {
 .boton-color-hombres:hover {
     background-color: #0d6efd;
         }
+/* Carrito de compras */
+.boton-carrito{
+    z-index: 5;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #0fad0f;
+}
 
 
 

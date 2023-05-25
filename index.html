@@ -90,7 +90,24 @@
         <div class="col-12 text-center p-0 mt-4 mb-4" >
           <img src="./Assets/Logo/logo-presentacion.png" alt="logo de la marca" height="70px"> 
         </div>
-    
+
+
+        <div class="boton-carrito d-flex justify-content-center p-1">
+          <a  data-bs-toggle="offcanvas" href="#offcanvasRight" role="button" aria-controls="offcanvasExample">
+            <img src="./Assets/shopping-cart.png" alt="carrito-compras" class="w-100">
+          </a>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            ...
+          </div>
+        </div>
+
+
         <div class="col-12 col-md-6 col-lg-4 p-0" >
           <img class="foto w-100" src="./Assets/imagenes de presentacion/primera-imagen.jpg" class="w-100" alt="imagen de presentacion">
         </div>
@@ -196,8 +213,8 @@
         <div class="col-12 col-md-3 p-3 footer-div row gap-2">
           <h4>Unete a nuestro newsletter</h4>
           <p>Tendras acceso a las ultimas tendencias, ofertas y más.</p>
-          <input type="email" name="userMail" id="mailUsuario" placeholder="Introduzca su email" class="form-control-lg col-md-12 col-lg-8 ">
-          <button type="submit" class="btn  btn-bd-primary col-md-10 col-lg-7">SUSCRIBIRSE</button>
+          <input type="email" name="userMail" id="mailUsuario" placeholder="Tu correo" class="form-control-lg col-md-12 col-lg-8 text-footer ms-2 mb-2">
+          <button type="submit" class="btn  btn-bd-primary col-md-10 col-lg-7 ms-2">SUSCRIBIRSE</button>
         </div>
         <div class="col-12 col-md-3 p-3 footer-div">
           <h4>AYUDA</h4>
