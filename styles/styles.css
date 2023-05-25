@@ -70,16 +70,32 @@ color: #00FF00
     border-color: #FFA500;
 
     }
+/* Navbar Seccion Hombres */
 
+.navHombres a{
+    color: #0d6efd;
+}
+
+.modal-content-hombres{
+    background-color:#333333;
+    color:#0d6efd;
+}
+
+.buscarHombres{
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.buscarHombres:hover{
+    
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+
+    }
 /* ----------Separador de secciones--------------- */
 .fonts3{
     font-family: 'Syne Mono', monospace;
 }
-
-
-
-
-
    /* ---------Secciones---------- */
 .imagen{
     box-shadow: 12px 0px 12px 5px rgba(0,0,0,0.2);
@@ -94,18 +110,9 @@ color: #00FF00
     transition: 750ms;
     filter: grayscale(0);
 }
-
 .backgroundcolor-sections{
     background-color: #333333;
 }
-
-
-
-
-
-
-
-
 /* ------------------------------------ */
 /* -------------Footer----------- */
 a{
@@ -120,8 +127,7 @@ color: #333333;
     background-color: black;
     
 }
-
-footer p, h3 {
+footer p, h4 {
     color: whitesmoke;
 }
 .list-group-item{ /*color de fondo de <li> de footer (puede necesitar correccion*/
@@ -153,15 +159,18 @@ footer p, h3 {
 /* Footer Seccion Mujer */
 
 .footerMujer a{
-    text-decoration: none;
     color:#FF007F;
 }
 
 /* Footer Seccion Niños */
 
 .footerNinios a{
-    text-decoration: none;
     color:#FFA500;
+}
+/* Footer Seccion Hombres */
+
+.footerHombres a{
+    color:#0d6efd;
 }
 
 /*Estilos carrousel de videos*/
@@ -189,6 +198,18 @@ footer p, h3 {
 .boton-color-ninios:hover {
     background-color: #FFA500;
         }
+
+/* Tarjetas hombres */
+
+.boton-color-hombres {
+    background-color: #0d6efd;
+    }
+    
+.boton-color-hombres:hover {
+    background-color: #0d6efd;
+        }
+
+
 
 
 
