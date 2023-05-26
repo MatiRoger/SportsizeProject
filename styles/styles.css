@@ -273,7 +273,10 @@ footer p, h4 {
     
 
 #offcanvasCarrito{
-    background-color: #333333;
+    background-color: white;
+}
+#carritoLabel{
+    color: #333333;
 }
 #carritoHome{
     background-color: #00FF00;
