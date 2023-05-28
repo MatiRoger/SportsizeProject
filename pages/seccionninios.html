@@ -74,6 +74,13 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">Sobre Nosotros</a>
             </li>
+            <li class="nav-item">
+              <div class="boton-carrito d-flex justify-content-center p-1 ms-3" id="carritoNinios">
+                <a  data-bs-toggle="offcanvas" href="#offcanvasCarrito" role="button" aria-controls="offcanvasExample">
+                  <img src="../Assets/shopping-cart.png" alt="carrito-compras" class="w-100">
+                </a>
+              </div>
+            </li>
           </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2 buscar" type="search" placeholder="Buena suerte!" aria-label="Search">
@@ -87,12 +94,6 @@
     <section class="container-fluid row justify-content-evenly seccionDamas">
       <div class="col-10 text-center mt-4 mb-4 p-0 " >
         <img src="../Assets/Logo/logo-presentacion.png" alt="logo de la marca" height="70px"> 
-      </div>
-      
-      <div class="boton-carrito d-flex justify-content-center p-1" id="carritoNinios">
-        <a  data-bs-toggle="offcanvas" href="#offcanvasCarrito" role="button" aria-controls="offcanvasExample">
-          <img src="../Assets/shopping-cart.png" alt="carrito-compras" class="w-100">
-        </a>
       </div>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCarrito" aria-labelledby="carritoLabel">
         <div class="offcanvas-header">
