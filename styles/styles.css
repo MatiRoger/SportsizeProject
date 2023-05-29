@@ -308,7 +308,69 @@ footer p, h4 {
         font-size: 1.5em;
     }
 }
+footer h5{color:#00FF00;}
 
+footer h6{
+    color: whitesmoke;
+}
+
+/* Modal Suscribirse */
+
+.logoModal{
+    height: 35px;
+    width: 40px;
+    margin-bottom: 8px;
+}
+
+.botonCerrar{
+    background-color: #00FF00;
+    color: black;
+}
+
+/* Modal Sucribirse Mujer */
+
+.texth5ModalMujer{
+    color: #FF007F;
+}
+
+.texth1ModalMujer{
+    color:#FF007F;
+}
+
+.botonCerrarMujer{
+    background-color: #FF007F;
+    color:#333333;
+}
+
+/* Modal Suscribirse Hombre */
+
+.texth5ModalHombre{
+    color:#0d6efd;
+}
+
+.texth1ModalHombre{
+    color:#0d6efd;
+}
+
+.botonCerrarHombre{
+    background-color: #0d6efd;
+    color: #333333;  
+}
+
+/* Modal Suscribirse Niños */
+
+.texth1ModalNinios{
+    color:#FFA500;
+}
+
+.texth5ModalNinios{
+    color: #FFA500;
+}
+
+.botonCerrarNinios{
+    background-color: #FFA500;
+    color: #333333;
+}
 
 
 

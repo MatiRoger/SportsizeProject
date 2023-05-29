@@ -326,7 +326,28 @@
         <h4>Unete a nuestro newsletter</h4>
         <p>Tendras acceso a las ultimas tendencias, ofertas y más.</p>
         <input type="email" name="userMail" id="mailUsuario" placeholder="Tu correo" class="form-control-lg col-md-12 col-lg-8 textFooter ms-2 mb-2">
-        <button type="submit" class="btn  btn-bd-primary col-md-10 col-lg-7 ms-2">SUSCRIBIRSE</button>
+        <button type="submit" class="btn  btn-bd-primary col-md-10 col-lg-7 ms-2" data-bs-toggle="modal" data-bs-target="#suscribirseNinios">SUSCRIBIRSE</button>
+        <div class="modal fade" id="suscribirseNinios" tabindex="-1" aria-labelledby="suscribirseNinios" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 texth1ModalNinios" id="suscribirseNinios">Registro Exitoso</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="d-flex justify-content-center">
+                  <img class=logoModal src="../Assets/Logo/logo-icon-navbar.png" alt="icono">
+                </div>
+                <h5 class="texth5ModalNinios">Bienvenido!</h5>
+                <h6>En unos minutos comprueba tu correo para confirmar tu suscripción a SportSize.</h6>
+                <h6>Podrás estar al tanto sobre las ultimas tendencias, novedades, ofertas exclusivas para socios, y mucho más! </h6>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary botonCerrarNinios" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-12 col-md-3 p-3 footer-div">
         <h4>AYUDA</h4>
