@@ -371,10 +371,54 @@ footer h6{
     background-color: #FFA500;
     color: #333333;
 }
+/* Seccion Sobre nosotros */
 
-
-
-
+.memberCards{
+    width: 600px;
+    height: 430px;
+}
+.card{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s;
+}
+.card:hover{
+    width: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+#memberCard1{
+    background-image: url(../Assets/sobrenosotros/Diseño\ sin\ título.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+#memberCard2{
+    background-image: url(../Assets/sobrenosotros/Diseño\ sin\ título\ \(1\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+#memberCard3{
+    background-image: url(../Assets/sobrenosotros/Diseño\ sin\ título\ \(2\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+#memberCard4{
+    background-image: url(../Assets/sobrenosotros/Diseño\ sin\ título\ \(3\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+#memberCard5{
+    background-image: url(../Assets/sobrenosotros/Diseño\ sin\ título\ \(4\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+}
 
 
 
