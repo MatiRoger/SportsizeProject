@@ -92,6 +92,11 @@ color: #00FF00
     border-color: #0d6efd;
 
     }
+/* Registro */
+.modal-footer a {
+    color: white ;
+}
+
 /* ----------Separador de secciones--------------- */
 .fonts3{
     font-family: 'Syne Mono', monospace;
