@@ -103,7 +103,6 @@ color: #00FF00
     height: 400px;
     border-radius: 5px;
     transition: 750ms;
-    filter: grayscale(2);
 }
 .imagen:hover{
     scale: 1.1;
@@ -112,6 +111,12 @@ color: #00FF00
 }
 .backgroundcolor-sections{
     background-color: #333333;
+}
+@media (min-width:993px) {
+    .imagen{
+        filter: grayscale(2);
+    }
+
 }
 /* ------------------------------------ */
 /* -------------Footer----------- */
