@@ -372,56 +372,147 @@ footer h6{
     color: #333333;
 }
 /* Seccion Sobre nosotros */
-
-.memberCards{
-    width: 600px;
-    height: 430px;
+.sobreNosotros{
+    background: #757F9A;
+    background: -webkit-linear-gradient(to left, #D7DDE8, #757F9A);
+    background: linear-gradient(to left, #D7DDE8 30%, #757F9A 100%);
 }
-.card{
+
+.cardContainer{
+    width: 600px;
+    height: 500px;
+}
+.memberCard{
     width: 0px;
     flex-grow: 1;
-    object-fit: cover;
+    background-color:white ;
     opacity: .8;
-    transition: .5s;
+    transition: 1.5s; 
 }
-.card:hover{
-    width: 200px;
-    opacity: 1;
-    filter: contrast(120%);
+.memberCard:hover{
+	width: 200px;
+	opacity: 1;
+	filter: contrast(120%);
+}
+.memberDescription{
+	display: none;
+}
+.memberDescription h4 {
+	color: #262626;
+}
+.memberCard:hover .memberDescription{
+	display: block;
+	animation-name: flip-in-horizontal;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
+@keyframes flip-in-horizontal {
+	0% {
+		transform:rotateX(-80deg);
+		opacity:0;
+	}
+	100% {
+		transform:rotateX(0);
+		opacity:1;
+	}
 }
 #memberCard1{
-    background-image: url(../Assets/sobrenosotros/Diseño\ sin\ título.jpg);
-    background-size: contain;
+    background-image: url(../Assets/sobrenosotros/dana.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position:top;
+    background-position:center;
 }
 #memberCard2{
-    background-image: url(../Assets/sobrenosotros/Diseño\ sin\ título\ \(1\).jpg);
-    background-size: contain;
+    background-image: url(../Assets/sobrenosotros/matiroger.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position:top;
+    background-position:center;
 }
 #memberCard3{
-    background-image: url(../Assets/sobrenosotros/Diseño\ sin\ título\ \(2\).jpg);
-    background-size: contain;
+    background-image: url(../Assets/sobrenosotros/matirossi.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position:top;
+    background-position:center;
 }
 #memberCard4{
-    background-image: url(../Assets/sobrenosotros/Diseño\ sin\ título\ \(3\).jpg);
-    background-size: contain;
+    background-image: url(../Assets/sobrenosotros/bauti.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position:top;
+    background-position:center;
 }
 #memberCard5{
-    background-image: url(../Assets/sobrenosotros/Diseño\ sin\ título\ \(4\).jpg);
-    background-size: contain;
+    background-image: url(../Assets/sobrenosotros/humberto.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position:top;
+    background-position:center;
+}
+#memberCard1:hover{
+    transition: 1.5s;
+    background-size: contain;
+    background-position: top;
+}
+#memberCard2:hover{
+    transition: 1.5s;
+    background-size: contain;
+    background-position: top;
+}
+#memberCard3:hover{
+    transition: 1.5s;
+    background-size: contain;
+    background-position: top;
+}
+#memberCard4:hover{
+    transition: 1.5s;
+    background-size: contain;
+    background-position: top;
+}
+#memberCard5:hover{
+    transition: 1.5s;
+    background-size: contain;
+    background-position: top;
+}
+.lista{
+    list-style: none;
+}
+.lista a {
+  width: 55px;
+  display:block;
+  text-align: center;
+  margin: 5px;
+  border-radius: 50%;
+  text-decoration: none;
 }
 
+.fab {
+  display:block;
+  background: linear-gradient(0deg, #fff, #d5d4d4);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 20px;
+  color: #262626;
+  transition: .5s;
+}
 
+.lista  li:nth-child(1) a:hover .fab {
+    color: #00aeff;
+}
 
+.lista  li:nth-child(2) a:hover .fab {
+    color: #0041cc;
+}
+
+.lista  li:nth-child(3) a:hover .fab {
+    color:  #dc2743
+}
+@media (max-width:576px) {
+	.cardContainer{
+		width: 100vw;
+	}
+}
 
 
 
